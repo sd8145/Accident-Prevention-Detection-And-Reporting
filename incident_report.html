@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incident_Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="Main">
+        <div id="idName">
+            <h1>Incident Report</h1>
+        </div>
+        <div>
+            <h2>Add some details to your profile</h2>
+        </div>
+        <div>
+            <p>
+                Full Name:
+                <br>
+                <input type="text" name="name">
+            </p>
+        </div>
+        <div>
+            <p>Gender
+                <br>
+                <select name="Gender_value">
+                    <option value="">--select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Prefer Not Say">Prefer Not Say</option>
+                </select>
+            </p>
+        </div>
+        <div>
+            <p>
+                Email:
+                <br><input type="email" name="email">
+            </p>
+        </div>
+        <div>
+            <p>
+                Age: <br><input type="number" name="age">
+            </p>
+        </div>
+        <div>
+            <p> Id proof <br>
+                <select name="Id_Proof">
+                    <option value="">--Select Id proof</option>
+                    <option value="Adhaar">Adhaar Card</option>
+                    <option value="Passport">Passport</option>
+                    <option value="PAN">PAN card</option>
+                </select>
+            </p>
+        </div>
+        <div>
+            <p>Upload your passport size photo  <br>
+            <form action="/action_page.php">
+                <input type="file" id="myFile" name="filename">
+            </form></p>
+            <div>
+                <p>Enter new Password:<br>
+               <input type="Text" name="Password"></p>
+                <p>Confirm new password: <br>
+               <input type="Text" name="Password"></p>
+            </div>
+        </div>
+        <br>
+        <div>
+            <form><input type="submit" value="Register" name="register"></form>
+        </div>
+    </div>
+</body>
+
+</html>
